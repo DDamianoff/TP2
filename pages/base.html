@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>MATERIA - TUP</title>
+
+    <link rel="icon" href="../media/icon/icon.jpeg"/>
+
+    <meta name="author" content="Dino Damianoff"/>
+    <meta name="description" content="Detalles de MATERIA"/>
+    <meta name="asignatura"
+          content="
+              Trabajo práctico 2 (4 CSS)
+              Programación II - Profesor Ricardo Teseira
+              Alumno: Damianoff Dino - 43706797
+              "/>
+
+    <link
+            rel="stylesheet"
+            href="../styles/styles.css"
+            type="text/css"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+
+<div class="body-container-alt">
+    <header class="header-container">
+        <img src="../media/img/frt.png" alt="logo" class="img-logo"/>
+        <h1 class="hid">Ficha de MATERIA</h1>
+    </header>
+
+    <main class="main-container">
+        <section class="section-container">
+            <h2 class="big-text">MATERIA</h2>
+            <div class="to-right-top">
+                <h3>Descripción</h3>
+                <blockquote>
+                    <!--
+                        Lorem improvisado en español
+                        para que el IDE no chille
+                        con los Typos.
+                    -->
+                    <p>
+                        Descripción genérica de materia,
+                        en la que la descripción sea genérica,
+                        ya que, de no ser genérica, la generalidad
+                        de la descripción genérica no ha de ser general.
+                    </p>
+                </blockquote>
+            </div>
+            <div class="to-left">
+
+                <h3><abbr title="TITULO"><span class="underline-decoration">tit.</span></abbr> NOMBRE</h3>
+                <ul>
+                    <li>
+                        <h4>Horarios:</h4>
+                        <ul>
+                            <li><span class="bold">Martes</span> <time datetime="16:15">16:15</time></li>
+                            <li><span class="bold">Jueves</span> <time datetime="16:15">16:15</time></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Contacto:</h4>
+
+                        <ul>
+                            <li><span class="bold">e-mail:</span>
+                                <a href="mailto:generic@mail.com"><span class="underline-decoration-link">generic@mail.com</span></a>
+                            </li>
+
+                            <li><span class="bold">teléfono:</span>
+                                <a href="tel:+123"><span class="underline-decoration-link">+123</span></a>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="to-right">
+                <h3>Links de acceso</h3>
+                <!--
+                TODO:
+                    Estructura más acertada:
+                        h4: p; con p y h
+                        inline.
+                -->
+                <ul>
+                    <li><span class="bold">Whatsapp:</span> <a href="INSERT LINK"><span class="underline-decoration-link">aquí</span></a></li>
+                    <li><span class="bold">Acceso a la clase:</span> <a href="INSERT LINK"><span class="underline-decoration-link">aquí</span></a></li>
+                </ul>
+            </div>
+
+
+        </section>
+
+        <footer class="go-to-back" onclick="location.href='../index.html'">
+            <div class="go-to-back-big-text"><p><a href="../index.html">VOLVER</a></p></div>
+        </footer>
+    </main>
+</div>
+</body>
+</html>
